@@ -1,3 +1,9 @@
-p  {
-    color: Blue;
+header, footer{
+    background-color: #bf5700;
+}
+.main {
+    background-color: #f4f6f6;
+}
+.aside {
+    background-color: #FFFFFF;
 }
