@@ -1,9 +1,24 @@
-header, footer{
-    background-color: #bf5700;
+body {
+    margin: 0;
 }
+
+header, footer{
+
+    background-color: #bf5700;
+
+}
+
 .main {
     background-color: #f4f6f6;
+    text-align: center;
+    
+    
 }
 .aside {
     background-color: #FFFFFF;
+}
+.meal {
+   
+
+   
 }
