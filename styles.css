@@ -1,74 +1,32 @@
-/* reset default settings*/
 * {
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  /* Main styling */
-
-  body {
-    font-family: "LibreFrank",Arial,Helvetica,sans-serif;
-  }
-  
-  header {
-    background-color: #bf5700;
-    padding: 40px;
-    
-  }
-  header h1 {
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-  }
-  .uhd-logo {
-    max-height: 70%;
-    max-width: 100%;
-    width:auto;
-    display: block;
-  }
-
-  main {
-    display: -webkit-flex;
-    display: flex;
-  }
-
-  article {
-    -webkit-flex: 1.8;
-    -ms-flex: 1.8;
-    flex: 1.8;
-    background-color: #ffffff;
-    padding: 10px;
-  }
-
-  .meal-button {
-      color: #ffffff;
-      text-align: center;
-      border-radius: 10px;
-      background-color: #bf5700;
-      height: 100px;
-      padding: 20px;
-      margin: 20px;
-      box-shadow: 5px 5px #888888;
-  }
-
-  aside {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: #d6d2c4;
-    padding: 20px;
-  }
-
-  footer {
-    background-color: #bf5700;
-    padding: 20px;
-    
-    
-  }
-
-  @media (max-width: 600px) {
-    main {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+  
+  .main-header {
+    background-color: #bf5700;
+    width: 100%;
+    padding: 8px 16px;
+  
+  }
+  .main-content {
+    background-color: white;
+    height: 400px;
+  }
+
+
+
+
+
+
+
+
+
+  .main-footer {
+    background-color: #bf5700;
+    
+    
+  }
+
