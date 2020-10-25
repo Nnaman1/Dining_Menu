@@ -5,19 +5,33 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
+  padding: 0;
 }
 
   .main-header {
     background-color: #bf5700;
     padding: 8px 16px;
+  
   }
-  .main-content {
+
+  .main {
     background-color: blue;
-    height: 100px;
+    display: inline-block;
+    width: 50%;
+
+   
+  }
+  .aside-content {
+    background-color: teal;
+    display: inline;
+    width: 50%;
+
+
+    
   }
 
   .main-footer {
     background-color: #bf5700;
-    padding: 8px 16px;
+   
   }
 
