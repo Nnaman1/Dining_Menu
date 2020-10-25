@@ -1,32 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
 }
 
-  
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
   .main-header {
     background-color: #bf5700;
-    width: 100%;
     padding: 8px 16px;
-  
   }
   .main-content {
-    background-color: white;
-    height: 400px;
+    background-color: blue;
+    height: 100px;
   }
-
-
-
-
-
-
-
-
 
   .main-footer {
     background-color: #bf5700;
-    
-    
+    padding: 8px 16px;
   }
 
