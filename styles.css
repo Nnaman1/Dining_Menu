@@ -1,84 +1,55 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #444;
 }
-ol, ul {
-  list-style: none;
+.table_cart {
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid #999;
+    padding: 0;
+    border-collapse: collapse;
 }
-blockquote, q {
-	quotes: none;
+.table_cart thead tr, .table_cart tbody tr, .table_cart tfoot tr {
+    border-bottom: 1px solid #888;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.table_cart tfoot {
+    background: white;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.table_cart--heading {
+    background: #bf5700;
+    text-align: left;
+    color: white;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+.table_cart--footer {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.1);
 }
-
- body {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.table_cart td, .table_cart th {
+    padding: 8px;
+    border-left: 1px solid;
+    position: relative;
 }
-.main-content {
-background-color: white;
+.table_cart td:first-child, .table_cart th:first-child {
+    border: 0;
 }
-/*
-.main-header {
-  background:#bf5700;
-  padding:2rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.table_cart .add_qty, .table_cart .remove_qty {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 3px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    line-height: 8px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
 }
-.main-content {
-
+.table_cart .remove_qty {
+    top: 23px;
 }
-.main-footer {
-  background:#bf5700;
-  padding:2rem;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 30px;
+.table_cart .input_qty {
+    padding: 5px;
+    margin-right: 5px;
 }
-
-*/
