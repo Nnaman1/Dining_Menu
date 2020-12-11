@@ -1,18 +1,22 @@
 .main {
-  background-color: brown;
-  width: 90%;
-  height: 500px;
-  margin: 0 auto;
+  background-color: white;
+  width: 80vw;
+  margin: auto;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center ;
+  flex-grow: 1;
 }
 
 .box {
   background-color: green;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
 
 }
 
-.box:nth-of-type(odd){
+.box:nth-of-type(even){
   background-color: blueviolet;
 }
