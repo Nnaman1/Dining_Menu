@@ -12,7 +12,7 @@ body {
     width: 300px;
     padding: 0.5rem;
   }
-  .performance-facts table {
+  .performance-facts table {    
     border-collapse: collapse;
   }
   .performance-facts__title {
