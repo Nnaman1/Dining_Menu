@@ -2,25 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>UHD Menu</title>
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Plugins.css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <header>
-    <a href="https://housing.utexas.edu/"><img src="./img/Housing.png" alt="" class="uhd-logo"></a>
-    <a href="https://www.utexas.edu/"><img src="./img/utlogo.png" alt="" class="uta-logo"></a>
-  </header>
-  <main>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
-  </main>
-  <footer>
-    <a href="">Web Privacy </a>
-    <a href="">Site Policies</a>
-    <a href="">Web Accessibility</a>
-  </footer>
+
+	<nav class="navbar" style="background-color: #bf5700;">
+		<span class="navbar-brand mb-0 h1" style="color: white;">UHD Logo</span>
+		<span class="navbar-brand mb-0 h1" style="color: white;">UTA Logo</span>
+	</nav>
+	<main>
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner"></div>
+			</div>
+		</div>
+		<!-- End Landing Page Image -->
+
+		<!-- Start Landing Page Caption -->
+		<div class="caption text-light text-uppercase">
+
+			<h1 class="font-weight-bold" style="text-align: center;; margin-left: 500px;">This Week's <br> Menu</h1>
+
+		</div>
+
+	</main>
+
+	<section>
+		<h1 class="mob-head" style="color: #bf5700; margin-top: 30px;"><strong>This Week's Menu </strong> </h1>
+		<div class="menu-icon">
+			<i class="fas fa-coffee fa-10x" style="color: #bf5700; align-items: center;"></i><br>
+			<button type="button" class="btn btn-secondary btn-lg"
+				style="background-color: #bf5700; width: 200px; margin-top: 30px;"">
+				<a href=" locations.html" style="text-decoration: none; color: white;">Breakfast</a> </button>
+		</div>
+		<div class="menu-icon">
+			<i class="fas fa-hamburger fa-10x" style="color: #bf5700;"></i><br>
+			<button type="button" class="btn btn-secondary btn-lg"
+				style="background-color: #bf5700; width: 200px; margin-top: 30px;">Lunch
+			</button>
+		</div>
+		<div class="menu-icon">
+			<i class="fas fa-pizza-slice fa-10x" style="color: #bf5700; align-items: center;"></i><br>
+			<button type="button" class="btn btn-secondary btn-lg"
+				style="background-color: #bf5700; width: 200px; margin-top: 30px;"">
+				Dinner</button>
+		</div>
+	</section>
+	
+
+		<!-- Plugins.js -->
+		<script src=" js/plugins.js"></script>
+				<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+				<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+				<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+				<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+				<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+				<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+				<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+				<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+				<script
+					src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+				<!-- End of Script Source Files -->
+
 </body>
 
 </html>
